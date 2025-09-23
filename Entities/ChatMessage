@@ -1,0 +1,23 @@
+{
+  "name": "ChatMessage",
+  "type": "object",
+  "properties": {
+    "message": {
+      "type": "string",
+      "description": "User or AI message content"
+    },
+    "is_ai": {
+      "type": "boolean",
+      "description": "Whether message is from AI or user"
+    },
+    "timestamp": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Message timestamp"
+    }
+  },
+  "required": [
+    "message",
+    "is_ai"
+  ]
+}
