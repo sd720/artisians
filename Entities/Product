@@ -1,0 +1,29 @@
+{
+  "name": "Product",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Product name"
+    },
+    "category": {
+      "type": "string",
+      "description": "Product category"
+    },
+    "materials": {
+      "type": "string",
+      "description": "Materials used"
+    },
+    "price": {
+      "type": "number",
+      "description": "Product price"
+    },
+    "generated_description": {
+      "type": "string",
+      "description": "AI-generated product description"
+    }
+  },
+  "required": [
+    "name"
+  ]
+}
